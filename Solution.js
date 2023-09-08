@@ -10,10 +10,8 @@ arr.map((num1,num2)=>{
    map.set(num1)
    num2 = target - num1
    if(map.has(num2)){
-      console.log(num1)
-      console.log(num2)
-   }else{
-      console.log(null)
+  
    }
+   console.log(num2)
 })
 
